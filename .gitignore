@@ -33,8 +33,11 @@ htmlcov/
 *.sqlite3
 backend/app/data/*.db
 backend/app/data/faiss/
+backend/app/data/faiss_index/
 backend/app/data/documents/
 backend/app/data/cache/
+*.index
+*metadata.json
 
 # Chrome temp dirs & debug logs
 chrome-temp*
